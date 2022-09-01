@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header{
+    background-color: black;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+.texte{
+    color: white;
+    margin-left: 600px;
+    position: absolute;
+    top: 20px;
+}
+.gros{
+    font-size: 55px;
+}
+.violet{
+    color: #913181;
+    margin-left: 10px;
+}
+.effet{
+    text-shadow: -5px 0px 0px #06fdd8;
+    color: #fd2155;
+}
+.container{
+    font-size: 40px;
+    background-color: rgb(51, 48, 48);
+    width: 100%;
+    height: 34vh;
+    position: relative;
+}
+.grosse{
+    color: white;
+    position: absolute;
+    margin-top: -80px;
+    padding: 0 4rem;
+}
+.navbar{
+    font-size: 15px; 
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 140px;
+
+}
+ul{
+    line-height: 40px;
+}
+li{
+    list-style: none;
+    border-bottom: solid 1px rgba(0,0,0,0.3);
+    width: 100%;
+}
+li a{
+    color: #913181;
+}
+.text-displ{
+    background-color: rgb(51, 48, 48);
+    height: 55vh;
+    margin-top: -9rem
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem
+}
+
+.bouton{
+    color: #913181;
+    margin-top: 55px;
+}
+.bouton p{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.bouton a{
+    background: transparent;
+    padding: 0.7rem 1.7rem;
+    border: 2px solid #913181;
+    outline: none;
+    color: #913181;
+    border-radius: 3px
+}
+
+.barre{
+    display: flex;
+}
+
+.trai{
+    width: 0.6rem;
+    height: 3rem;
+    background: #913181;
+    margin-right: 8px
+}
+.carre{
+    background: black;
+    width: 200px;
+    height: 3rem;
+    padding: 12px 15px;
+    margin-top: 20px
+}
+.carre p{
+    color: #913181;
+    line-height: 25px;
+}
+
+.gildas{
+    padding: 0 4rem;
+    margin-top: 9rem;
+    margin-bottom: 3rem
+}
+.gildas h2{
+    color: #913181;
+    text-align: center;
+    font-size: 58px
+}
+
+.projets{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projets p {
+    line-height: 40px;
+}
+
+.projets .barre {
+    display: flex;
+    align-items: center;
+}
+.projets .barre a {
+    background: transparent;
+    padding: 0.7rem 1.7rem;
+    border: 2px solid #913181;
+    outline: none;
+    color: #913181;
+    border-radius: 3px
+}
+
+.travaux{
+    padding-left: 4rem;
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.taff{
+    width: 250px;
+    height: 200px;
+    background: red;
+    margin-left: 25px
+    border: solid 1px;
+}
+
+.judicael {
+    padding: 0 4rem;
+    margin-top: 9rem;
+    margin-bottom: 3rem
+}
+
+.judicael h2{
+    color: #913181;
+    text-align: center;
+    font-size: 58px
+}
+
+.judicael .projets {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .6rem;
+}
+
+.judicael .projets h3 {
+    color: #913181;
+    margin: 14px 0;
+    font-size: 25px
+}
+
+.judicael img{ float: right;}
+
+
+
+.footer_bottom {
+    margin-top: 2.5rem;
+}
+
+.footer_bottom p.crp {
+    background: black;
+    padding: 15px 0;
+    float: left;
+    margin: 0;
+    color: #913181;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 770px) {
+    .barre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texte {
+        margin-left: 20rem;
+    }
+    .container {
+        font-size: 35px;
+        height: 35vh;
+    }
+    .text-displ {
+        height: 65vh;
+    }
+    .carre {
+        margin-top: 102px;
+    }
+    .projets {
+        flex-direction: column;
+    }
+    .trai {
+        margin-top: 2rem;
+        margin-bottom: 1.8rem
+    }
+    .projets .barre a {
+        margin-top: 2rem;
+        margin-bottom: 1.8rem
+    }
+    .travaux {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .taff {
+        width: 225px;
+        height: 200px;
+        background: red;
+    }
+}
+
+@media screen and (max-width: 606px) {
+    .carre {
+        margin-top: 125px;
+        height: 70px
+    }
+    .carre p {
+        color: #913181;
+        font-size: 13px;
+    }
+    .taff {
+        width: 171px;
+        height: 200px;
+        background: red;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    .grosse {
+        font-size: 60px;
+    }
+    .texte {
+        margin-left: 13rem;
+    }
+    .taff {
+        width: 210px;
+        height: 200px;
+        background: red;
+    }
+    .travaux {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .texte {
+        margin-left: 10rem;
+    }
+    .grosse {
+        font-size: 48px;
+        margin-top: -3rem;
+    }
+    .travaux {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .taff {
+        width: 17rem;
+    }
+    .gildas img {
+        width: 300px
+    }
+    .judicael img {
+        float: right;
+        width: 300px
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .text-displ{
+        height: 67vh;
+    }
+    .barre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bouton p {
+        text-align: center;
+    }
+    .carre {
+        margin-top: 15px;
+        margin-left: 64px;
+        text-align: center;
+    }
+    .texte {
+        margin-left: 6rem;
+    }
+    .grosse {
+        font-size: 39px;
+    }
+    .container {
+        height: 25vh;
+    }
+    .flex {
+        display: grid;
+        padding: 0 3rem;
+    }
+    .judicael h2 {
+        font-size: 45px;
+    }
+}
